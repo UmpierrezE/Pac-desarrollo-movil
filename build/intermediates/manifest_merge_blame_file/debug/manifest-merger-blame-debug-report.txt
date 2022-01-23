@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.pac_desarrollo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml
+10    //permiso uso de camnara
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature
+13-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:8:5-10:35
+14        android:name="android.hardware.camera.any"
+14-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:9:9-51
+15        android:required="true" />
+15-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:10:9-32
+16
+17    <application
+17-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:12:5-37:19
+18        android:allowBackup="true"
+18-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:13:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.2] C:\Users\Usuario\.gradle\caches\transforms-3\757d34ac79418c4db35d5e9fcc0c9e11\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:14:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:15:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:16:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:17:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.PAC_DESARROLLO" >
+26-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:18:9-52
+27        <activity android:name="com.example.pac_desarrollo.Main2ConsultarActivity" />
+27-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:19:9-69
+27-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:19:19-57
+28        <activity android:name="com.example.pac_desarrollo.Main2InsertActivity" />
+28-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:20:9-57
+28-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:20:19-54
+29        <activity
+29-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:21:9-23:52
+30            android:name="com.example.pac_desarrollo.MainActivity2"
+30-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:22:13-42
+31            android:screenOrientation="portrait" />
+31-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:23:13-49
+32        <activity android:name="com.example.pac_desarrollo.MainActivity4" />
+32-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:24:9-51
+32-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:24:19-48
+33        <activity
+33-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:25:9-27:52
+34            android:name="com.example.pac_desarrollo.MainActivity3"
+34-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:26:13-42
+35            android:screenOrientation="portrait" />
+35-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:27:13-49
+36        <activity
+36-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:28:9-36:20
+37            android:name="com.example.pac_desarrollo.MainActivity"
+37-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:29:13-41
+38            android:screenOrientation="portrait" >
+38-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:30:13-49
+39            <intent-filter>
+39-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:31:13-35:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:32:17-69
+40-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:32:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:34:17-77
+42-->C:\Users\Usuario\Desktop\Pac_desarrollo_app_multimedia\PAC_DESARROLLO\app\src\main\AndroidManifest.xml:34:27-74
+43            </intent-filter>
+44        </activity>
+45    </application>
+46
+47</manifest>

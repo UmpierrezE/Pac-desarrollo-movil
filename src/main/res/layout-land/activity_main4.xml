@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2D2D">
+
+    <!-- Scrollview-->
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- layout que contiene las imagenes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="15dp"
+                    app:srcCompat="@drawable/imagen1"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="106dp" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="15dp"
+                    app:srcCompat="@drawable/imagen2"
+                    tools:layout_editor_absoluteX="58dp"
+                    tools:layout_editor_absoluteY="349dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="15dp"
+                    app:srcCompat="@drawable/imagen3"
+                    tools:layout_editor_absoluteX="160dp"
+                    tools:layout_editor_absoluteY="266dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    app:srcCompat="@drawable/imagen4"
+                    tools:layout_editor_absoluteX="166dp"
+                    tools:layout_editor_absoluteY="194dp" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    app:srcCompat="@drawable/imagen5"
+                    tools:layout_editor_absoluteX="155dp"
+                    tools:layout_editor_absoluteY="168dp" />
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    app:srcCompat="@drawable/imagen6"
+                    tools:layout_editor_absoluteX="238dp"
+                    tools:layout_editor_absoluteY="321dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- volver -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="285dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="60dp"
+        android:text="Volver al Activity 1"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:rippleColor="#33FF0000"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

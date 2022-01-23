@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E2D2D"
+    tools:context=".Main2ConsultarActivity">
+
+    <!-- nombre de la tabla -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="218dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="370dp"
+        android:layout_height="437dp"
+        app:layout_constraintBottom_toTopOf="@+id/volver"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo">
+
+        <!-- Tabla -->
+        <TableLayout
+            android:id="@+id/tabla"
+            android:layout_width="match_parent"
+            android:layout_height="495dp">
+
+            <TableRow
+                android:id="@+id/col1"
+                android:layout_width="391dp"
+                android:layout_height="53dp"
+                android:gravity="center">
+
+
+
+                <TextView
+                    android:id="@+id/tvId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Nº"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvNombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Nombre"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Descripción"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvEstado"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Estado"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+
+    </ScrollView>
+    <!-- Volver -->
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="volver"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="@android:color/transparent"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        app:rippleColor="#33FF0000"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

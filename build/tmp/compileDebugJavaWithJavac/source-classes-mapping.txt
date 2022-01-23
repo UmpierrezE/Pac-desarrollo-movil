@@ -1,0 +1,2 @@
+com/example/pac_desarrollo/BuildConfig.java
+ com.example.pac_desarrollo.BuildConfig
